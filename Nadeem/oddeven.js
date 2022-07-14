@@ -1,6 +1,12 @@
-const arr = [1,2,3,4,5,6,7,8,9,10];
+const arr = [];
 
-console.log(arr);
+const pushvalue = () =>{
+for (let i=1; i<=200; i++) {
+    arr.push(i);
+}
+}
+pushvalue();
+
 const filteredarr = arr.filter ((val) => {
     return (val % 2 === 0)
     
