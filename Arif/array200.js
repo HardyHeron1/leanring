@@ -1,7 +1,7 @@
 const arr = [];
 
 const pushvalue = () =>{
-for (let i=1; i<=200; i++) {
+for (let i=1; i<201; i++) {
     arr.push(i);
 }
 }
