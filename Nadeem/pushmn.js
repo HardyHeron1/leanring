@@ -7,7 +7,7 @@ const pushvalue = (m,n) => {
 pushvalue(5,35);
 console.log(arr);
 
-let a = 4;
+let a = 5;
 const filteredarr = arr.filter((p) => {
     if (p%10 == a){
         return true;
