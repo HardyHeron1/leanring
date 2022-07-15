@@ -6,6 +6,7 @@ for (let i=1; i<=200; i++) {
 }
 }
 pushvalue();
+console.log(arr);
 
 const filteredarr = arr.filter ((val) => {
     return (val % 2 === 0)
