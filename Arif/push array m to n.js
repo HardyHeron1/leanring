@@ -5,10 +5,10 @@ for (let i=m; i<=n; i++) {
     arr.push(i);
 }
 }
-pushvalue(3,45);
+pushvalue(1,100);
 console.log(arr)
 
-let a = 3;
+let a = 9;
 const filteredarr = arr.filter((p) => {
 if ( p%10 == a){
     return true;
