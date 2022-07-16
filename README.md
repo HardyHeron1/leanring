@@ -12,3 +12,8 @@
 - create array from m to n
 - Filter all number ending with 7
 - Filter all number ending with 'a'
+
+## 16 July 2022
+- give an array, find position of 'java' and 'python'
+- If 'java' exist, replace it with 'I', 'like', 'javascript'
+- If ''python' exist, insert after that 'Python', 'is', 'easy' 
