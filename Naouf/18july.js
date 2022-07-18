@@ -96,3 +96,4 @@ Employee ={
     },
 }
 console.log(Employee.Employee3);
+console.log(Object.values(Library.Math));
