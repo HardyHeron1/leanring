@@ -65,6 +65,5 @@ const Employee = {
     },
        
 }
-console.log(Employee.Second);
-
-
+console.log(Employee.Fourth.Gender);
+console.log(Object.values(Employee.First));
