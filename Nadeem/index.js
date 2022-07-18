@@ -11,7 +11,6 @@ const ind1 = arr.indexOf('python')
 if (ind1 !== -1){
     const print = arr.splice(ind1 +1, 0,'phython','is','easy');
 }
-console.log(arr);
 
 console.log(arr);
 console.log(ind);
