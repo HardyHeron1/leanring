@@ -24,3 +24,9 @@
 - Create Obj Employee: 8 employee detail, name, age, designation, gender, email-id, salary
 
 - print 3rd employee, print 4th section
+
+## 19 July 2022
+- https://catfact.ninja/facts get response from this api by opening the above link in browser
+- List of all facts from the object.
+- Find total of facts string, meaning add all length of the fact object.
+- Filter all facts which has "down" in it
