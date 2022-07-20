@@ -51,10 +51,9 @@
         a= a + data[i].fact.length;
     }
     console.log(a);
-    const arr1=[];
-    for (i=0;i<arr.length;i++){
-          if (arr[i].indexOf("down")!==-1){
-            arr1.push(arr[i]);
-          }
-    }
+    const arr1= arr.filter((b)=>{
+        if (b.indexOf("down")!==-1){
+            return true;
+        }
+    })
     console.log(arr1);
