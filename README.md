@@ -30,3 +30,11 @@
 - List of all facts from the object.
 - Find total of facts string, meaning add all length of the fact object.
 - Filter all facts which has "down" in it
+
+## 21 July 2022
+-  print the road of the address "Print Nashik road"
+-  change Looknlike to lookandlike
+- print all employee object details starting or ending with A
+- print all employee details whose salary less than 25000
+- print product details whose product type is furniture
+- print price of the product whose color is blue
