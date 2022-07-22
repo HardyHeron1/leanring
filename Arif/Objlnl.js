@@ -50,6 +50,5 @@ obj.product.forEach((p)=>{
     if (p.color=="blue"){
       console.log(p.price);
     };
-   
 });
 

@@ -64,10 +64,8 @@ let a = [];
     a.push(obj.employee[j]);
     };
     
-    const b = a.filter((p)=>{
-        if(p.name.startsWith("A")==true){
-            return true;
-        }
+    const b = obj.employee.filter((p)=>{
+        return p.name.toLowerCase().startsWith("A");
     })
 
 console.log(b);

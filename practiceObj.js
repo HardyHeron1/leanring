@@ -43,3 +43,8 @@ const emptystock = obj.product.filter((c)=>{
 //console.log(resurname);
 //console.log(obj);
 console.log(emptystock);
+let num =0;
+obj.product.forEach((p)=>{
+  num=num + p.stockQty;
+});
+console.log(num);

@@ -42,9 +42,9 @@ let a =[];
 for(i=0; i<obj.employee.length; i++){
 a.push(obj.employee[i]);
 }
-const start = obj.employee.filter((p == true) => {
-    return true;
+const start = obj.employee.filter((p) => {
+    return p.name.toLowerCase().startsWith('a') || p.name.toLowerCase().endsWith('a');
 }
 )
-console.log(a);
+console.log(start);
 

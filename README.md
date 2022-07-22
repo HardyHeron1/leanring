@@ -38,3 +38,6 @@
 - print all employee details whose salary less than 25000
 - print product details whose product type is furniture
 - print price of the product whose color is blue
+
+## 22 July 2022
+- Given a excel column name return column Number
