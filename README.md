@@ -41,3 +41,8 @@
 
 ## 22 July 2022
 - Given a excel column name return column Number
+
+## 23 July 2022
+- Read first chapter of javascript.info
+- Base 20, increase price based on stockquantity
+- Given a number, return sum of all digits in the number
