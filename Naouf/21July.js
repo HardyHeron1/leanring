@@ -27,18 +27,18 @@ const obj = {
     {name: 'mattress', type: 'home', color: 'black', price: 14000, brand: 'abd', stockQty: 5},
   ]
 };
-const underageemployee = obj.employee.filter((p)=>{
-  return p.age<=18;
-}
-)
-const resurname = obj.owner.split(" "); 
-resurname.splice(resurname.length-1,1,'bhai');
-obj.owner=resurname.join(' ');
+// const underageemployee = obj.employee.filter((p)=>{
+//   return p.age<=18;
+// }
+// )
+// const resurname = obj.owner.split(" "); 
+// resurname.splice(resurname.length-1,1,'bhai');
+// obj.owner=resurname.join(' ');
 
-const emptystock = obj.product.filter((c)=>{
-  return c.stockQty==0;
-}
-)
+// const emptystock = obj.product.filter((c)=>{
+//   return c.stockQty==0;
+// }
+// )
 //console.log(obj.owner);
 //console.log(underageemployee);
 //console.log(resurname);
@@ -46,41 +46,46 @@ const emptystock = obj.product.filter((c)=>{
 //console.log(emptystock);
 
 // Question No 1
-const address = obj.address.split(" "); 
-address.splice(0,4,);
-obj.address= address.join(" ");
-console.log(obj.address);
+// const address = obj.address.split(" "); 
+// address.splice(0,4,);
+// obj.address= address.join(" ");
+// console.log(obj.address);
 
-// Question No 2
-const newname = obj.name.replace("n","And")
-console.log(newname);
+// // Question No 2
+// const newname = obj.name.replace("n","And")
+// console.log(newname);
 
-//Question 3
+// //Question 3
   
-  const b = obj.employee.filter((p)=>{
-      return p.name.toLowerCase().startsWith("a")|| p.name.toLowerCase().endsWith("a")});
-  console.log(b);
+//   const b = obj.employee.filter((p)=>{
+//       return p.name.toLowerCase().startsWith("a")|| p.name.toLowerCase().endsWith("a")});
+//   console.log(b);
 
-//Question 4
+// //Question 4
 
-const salary1 = obj.employee.filter((c)=>{
-  return c.salary < 25000;
-}
-)
-console.log(salary1);
+// const salary1 = obj.employee.filter((c)=>{
+//   return c.salary < 25000;
+// }
+// )
+// console.log(salary1);
 
-//Question 5
+// //Question 5
 
-const e = obj.product.filter((t)=>{
-    return t.type == "furniture";
+// const e = obj.product.filter((t)=>{
+//     return t.type == "furniture";
+// })
+// console.log(e);
+
+// //Question 6
+
+// const g = obj.product.filter((u)=>{
+// if( u.color == "blue"){
+//   console.log(u.price);
+// }
+//})
+
+const a = obj.product.filter ((p)=>{
+  let num = 20 - p.stockQty;
+  p.price = p.price*(num/100)+p.price
 })
-console.log(e);
-
-//Question 6
-
-const g = obj.product.filter((u)=>{
-if( u.color == "blue"){
-  console.log(u.price);
-}
-})
-
+console.log(obj.product);
