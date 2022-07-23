@@ -87,3 +87,8 @@ const color = obj.product.filter((a) => {
         console.log(a.price);
     }
 });
+
+const inc = obj.product.filter((p) => {
+    p.price = p.price*((20-p.stockQty)/100)+p.price;
+  });
+  console.log(inc);
