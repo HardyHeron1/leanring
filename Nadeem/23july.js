@@ -28,8 +28,29 @@ const obj = {
     ]
 };
 
-const inc = obj.product.filter((p) => {
-    p.price = p.price*((20-p.stockQty)/100)+p.price;
-  });
-  console.log(obj.product);
-  console.log(inc);
+// const inc = obj.product.filter((p) => {
+//     p.price = p.price*((20-p.stockQty)/100)+p.price;
+//   });
+//   console.log(obj.product);
+//   console.log(inc);
+
+  // product with higest price
+
+  let highprice = 0;
+  obj.product.forEach((a) => {
+    if (obj.product[highprice].price < a.price){
+        highprice = a;
+    }
+     })
+     console.log(obj.product[highprice]);
+
+
+     // employee with highest salary
+
+     let highsalary = 0;
+     obj.employee.forEach((b) => {
+        if (obj.employee[highsalary].salary < b.salary){
+            highsalary = b;
+        }
+     })
+     console.log(obj.employee[highsalary]);
