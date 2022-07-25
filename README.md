@@ -46,3 +46,9 @@
 - Read first chapter of javascript.info
 - Base 20, increase price based on stockquantity
 - Given a number, return sum of all digits in the number
+
+## 25 July 2022
+- index of larget number in an array
+- print product with highest price in look n like
+- print employee with highst salary in look n like
+- calculate median age of employees in look n like
