@@ -52,3 +52,9 @@
 - print product with highest price in look n like
 - print employee with highst salary in look n like
 - calculate median age of employees in look n like
+
+## 27 July 2022
+- Total age of technical employees
+- Average salary of technical employees
+- Sort sale employees based on age in descending order. And print sorted sale employee.
+- Highest salary among Marketing employee.
