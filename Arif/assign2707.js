@@ -9,7 +9,7 @@ const employee = {
     },
     employee2: {
         Name: 'Naouf',
-        Age: 34,
+        Age: 36,
         Designation: 'B.E. EXT',
         Gender: 'Male',
         EmailID: 'naouf@gmail.com',
@@ -17,7 +17,7 @@ const employee = {
     },
     employee3: {
         Name: 'Arif',
-        Age: 34,
+        Age: 32,
         Designation: 'Sethji',
         Gender: 'Male',
         EmailID: 'arif@gmail.com',
@@ -61,10 +61,10 @@ const employee = {
         Designation: 'C.E.O',
         Gender: 'Male',
         EmailID: 'samir@gmail.com',
-        Salary: 1500,
+        Salary: 15000,
     },
 
-}
+};
 
 const department = {
 sale : {
@@ -75,14 +75,34 @@ marketing : {
     totalemployee : 3,
     employeeids : ["employee1","employee2","employee3"]
 },
-Tecnical : {
-    totalemployee : 3
+tecnical : {
+    totalemployee : 3,
     employeeids : ["employee4","employee5","employee8"]
 },
 };
 
-const eage = department.marketing.employeeids.forEach((p){
-    total+= employee[p].Age;
-})
-console.log(eage);
-department();
+// let total = 0;
+// department.marketing.employeeids.forEach((p)=>{
+//     total += employee[p].Age;
+// });
+// console.log(total);
+
+// let total = 0;
+// department.tecnical.employeeids.forEach((p)=>{
+//     total+= employee[p].Age;
+// });
+// console.log(total);
+
+// let total = 0;
+// department.tecnical.employeeids.forEach((p)=>{
+//     total+=employee[p].Salary;
+//     avgsal = total/department.tecnical.totalemployee;
+// });
+// console.log(avgsal)
+
+// department.sale.employeeids.sort((a,b)=>{return employee[b].Age-employee[a].Age});
+// console.log(department.sale.employeeids);
+
+// department.marketing.employeeids.sort((a,b)=>{return employee[b].Age-employee[a].Age});
+// console.log(department.marketing.employeeids);
+
