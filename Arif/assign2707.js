@@ -106,3 +106,11 @@ tecnical : {
 // department.marketing.employeeids.sort((a,b)=>{return employee[b].Age-employee[a].Age});
 // console.log(department.marketing.employeeids);
 
+let highestsal = 0;
+department.marketing.employeeids.forEach((p)=>{
+    
+    if (highestsal < employee[p].Salary)
+    {
+        highestsal = employee[p].Salary};
+});
+console.log(highestsal);
