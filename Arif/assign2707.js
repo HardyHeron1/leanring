@@ -106,6 +106,7 @@ tecnical : {
 // department.marketing.employeeids.sort((a,b)=>{return employee[b].Age-employee[a].Age});
 // console.log(department.marketing.employeeids);
 
+
 let highestsal = 0;
 department.marketing.employeeids.forEach((p)=>{
     
@@ -114,3 +115,4 @@ department.marketing.employeeids.forEach((p)=>{
         highestsal = employee[p].Salary};
 });
 console.log(highestsal);
+// it is for highest Salary in marketing
