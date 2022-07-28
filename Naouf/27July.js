@@ -93,10 +93,16 @@ Department.Technical.EmployeeID.forEach((b) => {
 
 console.log(num);
 
-let d= 0;
-Department.Marketing.EmployeeID.forEach((c) => {
-    if (Employee[c].Salary< Employee[c+1].Salary){
-        d= c+1;
+
+Department.Sales.EmployeeID.sort((a,b)=>{return Employee[b].Age-Employee[a].Age});
+console.log(Department.Sales.EmployeeID);
+
+Department.Marketing.EmployeeID.sort((a,b)=>{return Employee[b].Salary-Employee[a].Salary});
+let highestsalary=0
+Department.Marketing.EmployeeID.forEach((p)=>{
+    if(highestsalary < Employee[p].Salary){
+         highestsalary= Employee[p].Salary
     }
-});
-console.log(Employee[d].Salary);
+})
+   
+console.log(highestsalary);
