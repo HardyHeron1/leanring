@@ -119,7 +119,11 @@ department.sale.employeeIDs.sort((a, b) => {
 });
 console.log(department.sale.employeeIDs);
 
+
+
 // Highest salary among marketing employee
+
+
 
 let highestSalary = 0;
 department.marketing.employeeIDs.forEach((p) => {
