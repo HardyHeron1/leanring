@@ -34,4 +34,4 @@ const no = (p)=>{
   }
   return num;
 }
-console.log(no("az"));
+console.log(no("ABC"));

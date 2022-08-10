@@ -45,4 +45,4 @@ var convertToTitle = function (columnNumber) {
   return str;
 };
 
-console.log(convertToTitle(78));
+console.log(convertToTitle(710));
