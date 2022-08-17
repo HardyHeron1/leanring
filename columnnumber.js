@@ -51,4 +51,4 @@ const colFinder = (str)=>{
   // }
   return colNumber
 };
-console.log(colFinder("LK"))
+console.log(colFinder("AAB"))
