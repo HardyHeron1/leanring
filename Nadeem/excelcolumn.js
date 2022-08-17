@@ -32,7 +32,7 @@ var convert = function (a) {
 
     while (a > 26) {
         let mod = a % 26;
-        if (mod == 0) {
+        if (mod === 0) {
             mod = 26;
         }
         str = arr[mod] + str;

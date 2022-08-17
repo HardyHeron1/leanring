@@ -5,10 +5,10 @@ const num = (a) => {
         let rem = a % 10;
         sum = sum + rem;
         a = Math.floor(a / 10);
-        console.log(a);
+        
     }
     return sum;
 
 };
 
-console.log(num(789));
+console.log(num(100));
