@@ -10,4 +10,5 @@ const fact = function(a,n){
 const fact1 = function(n){
     return fact(1,n);
 }
+
 console.log(fact1(6));
