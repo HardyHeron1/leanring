@@ -51,3 +51,11 @@ const factorial1 = function(a,n){
     return factorial1(a*n,n-1);
 }
 console.log(factorial(5));
+
+
+let arr = [1, 2, 3];
+
+let arrCopy = [...arr]
+// console.log(arr===arrCopy)
+console.log(JSON.stringify(arr) === JSON.stringify(arrCopy))
+console.log(arrCopy.reverse(),arr)
