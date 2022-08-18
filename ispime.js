@@ -9,6 +9,6 @@ function prime(n){
   }
   return true;
 }
-console.log(prime(1));
-console.log(prime(25));
+console.log(prime(23));
+console.log(prime(24));
 console.log(prime(29));
