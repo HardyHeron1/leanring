@@ -18,5 +18,6 @@ for (let i of arr){
         console.log(a);
     }
 }
+
 total=a.reduce((a,b)=> a+b,0);
 console.log(total);

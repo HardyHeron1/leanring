@@ -14,7 +14,7 @@ const removeouter = (s) => {
             {
                 b.push(a[a.length - 1], i)
                 a.pop();
-                console.log(b);
+                console.log(b); 
             }
             c = b.join("");
             console.log(c);
