@@ -58,3 +58,6 @@
 - Average salary of technical employees
 - Sort sale employees based on age in descending order. And print sorted sale employee.
 - Highest salary among Marketing employee.
+
+## 25 Aug 2022
+- Create Class Library: Child class section {number of books, type of books [], number of books issued, incharge} ,
