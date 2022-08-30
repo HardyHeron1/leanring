@@ -40,7 +40,7 @@ class Section extends Library{
 }
 
 
-let section1 = new Section(["Physics", "Maths", "History"], "Arif", {physics: 14, Maths: 10, History: 5}, {physics: 5, Maths: 7, History: 2})
+let section1 = new Section(["Physics", "Maths", "History"], "Arif", {Physics: 14, Maths: 10, History: 5}, {Physics: 5, Maths: 7, History: 2})
 
 // console.log(type1.types)
 console.log(section1.LeftBook("Maths"))
