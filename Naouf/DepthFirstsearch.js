@@ -1,4 +1,4 @@
-arr=[2,3,5,6,7,8,,9,10,,,14,15,16,18,20,21]
+arr=[2,3,5,6,7,16,8,,9,10,,,14,15,18,20,21]
 class Node{
     constructor(value,left,right){
         this.value=value;
@@ -22,5 +22,17 @@ while(que!==0 && p<arr.length){
     }
     p=p+2;
 }
-console.log(JSON.stringify(root));
-
+let queue=[];
+queue.push(root);
+while (queue.length!=0){
+temp = queue.pop();
+if(temp.value==16){
+    console.log(temp);
+    return;
+}
+if(temp.left){
+queue.push(temp.left);
+}
+if(temp.right)
+queue.push(temp.right)
+}

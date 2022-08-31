@@ -1,4 +1,4 @@
-arr=[2,3,5,6,7,8,,9,10,,,14,15,16,18,20,21]
+arr=[2,3,5,6,7,16,8,,9,10,,,14,15,18,20,21]
 class Node{
     constructor(value,left,right){
         this.value=value;
@@ -22,5 +22,17 @@ while(que!==0 && p<arr.length){
     }
     p=p+2;
 }
-console.log(JSON.stringify(root));
-
+function Inorder(root) {
+    if(root.left){
+        Inorder(root.left)
+    }
+    if(root.value==16){
+        console.log(root.value);
+        return;
+    }
+    if(root.right){
+        Inorder(root.right);
+    }
+    return;
+}
+Inorder(root);
