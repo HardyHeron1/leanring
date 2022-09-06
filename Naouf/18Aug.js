@@ -1,4 +1,6 @@
-ops = ["5","2","C","D","+"]
+ops = ["5","2","C","D","+","+"]
+console.log(ops.indexOf("+"))
+console.log(ops.lastIndexOf("+"))
 let record = [];
 for (let p of ops){
     if (p=="D"){
