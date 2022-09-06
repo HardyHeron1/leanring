@@ -1,0 +1,22 @@
+{
+  "name": "leanring",
+  "version": "1.0.0",
+  "description": "- create array 1 to 200\r - Filter all odd number\r - Filter all even number\r - Filter all prime number",
+  "main": "29aug.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HardyHeron1/leanring.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HardyHeron1/leanring/issues"
+  },
+  "homepage": "https://github.com/HardyHeron1/leanring#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
