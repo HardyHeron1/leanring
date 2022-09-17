@@ -1,12 +1,18 @@
-const arr = [1,3,5,56,7,34,4564,56,45,234];
+const arr = [1,2,3,4];
 
 console.log(arr);
-const filtera = (a) => {
-  const filteredarr = arr.filter((val) => {
-    return (val % 10 === a);
-  });
-  return filteredarr;
-};
+// const filtera = (a) => {
+//   const filteredarr = arr.filter((val) => {
+//     return (val % 10 === a);
+//   });
+//   return filteredarr;
+// };
+
+arr1 = arr.map((el, index) => 
+  el=index
+);
 
 
-console.log(filteredarr);
+
+
+console.log(arr1);

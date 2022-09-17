@@ -37,7 +37,9 @@ class Pokemon{
       this.baseexperience=res.data.base_experience;
       this.form=res.data.forms;
       res.data.abilities.forEach((p) => {
-        this.abilities.push(new Ability(p.ability.name,p.ability.url,p.is_hidden,p.slot))
+        const ab = new Ability(p.ability.name,p.ability.url,p.is_hidden,p.slot);
+        this.abilities.push(ab);
+        ab.getDetails();
       });
     })
   }
@@ -54,7 +56,7 @@ function getPokemonList(url){
       pokemon.getDetails();
     });
     console.log(pokemonlist);
-  })
+  });
 }
 getPokemonList("https://pokeapi.co/api/v2/pokemon?limit=5");
 
