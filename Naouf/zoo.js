@@ -65,6 +65,7 @@ class Cage{
 class Fooding{
   constructor(type){
     this.type = type;
+    this.listOfCages=[];
   }
 
   getCages(){
@@ -82,7 +83,7 @@ class NonVeg extends Fooding{
     super(type);
     this.name = name;
     this.stockQty = stockQty;
-    this.listOfCages=[];
+    
   }
   AlotCages(){
     
